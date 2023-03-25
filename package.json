@@ -2,7 +2,7 @@
   "name": "catalogo",
   "version": "0.0.1",
   "description": "Un catalogo",
-  "productName": "Catalogo",
+  "productName": "Catalogo de Toyota",
   "author": "sadseleven <abraham23ob99@gmail.com>",
   "private": true,
   "scripts": {

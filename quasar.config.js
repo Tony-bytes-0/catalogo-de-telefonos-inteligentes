@@ -144,9 +144,9 @@ module.exports = configure(function (ctx) {
       },
 
       manifest: {
-        name: `Catalogo`,
-        short_name: `Catalogo`,
-        description: `Un catalogo`,
+        name: `Catalogo de Toyota`,
+        short_name: `Catalogo Toyota`,
+        description: `Un catalogo de Toyota`,
         display: "standalone",
         orientation: "portrait",
         background_color: "#ffffff",
