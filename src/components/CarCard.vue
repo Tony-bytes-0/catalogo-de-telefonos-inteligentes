@@ -1,14 +1,17 @@
 <template>
   <q-card class="my-card q-ma-lg">
-    <img :src="car.img" />
+    <div></div>
+    <img :src="tlf.img" /> 
 
     <q-card-section>
-      <div class="text-h6">{{ car.name }}</div>
-      <div class="text-subtitle2">{{ car.type }}</div>
-    </q-card-section>
+      <div class="text-h6">{{ tlf.model }}</div>
+      <div class="text-subtitle2">Tamaño: {{ tlf.size }}</div>
+      <div class="text-subtitle2">Memoria Ram: {{ tlf.ram }}</div>
+      <div class="text-subtitle2">Procesador: {{ tlf.processor }}</div>
+      <div class="text-subtitle2">Capacidad de la Bateria: {{ tlf.battery }}</div>
+      <div class="text-subtitle2">Capacidad de almacenamiento: {{ tlf.disk }}</div>
+      <div class="text-subtitle2">Camara: {{ tlf.camera }}</div>
 
-    <q-card-section class="q-pt-none">
-      {{ lorem }}
     </q-card-section>
 
     <q-separator />
@@ -25,7 +28,7 @@ import { defineComponent } from "vue";
 export default defineComponent({
   name: "CarCard",
   props: {
-    car: {
+    tlf: {
       type: Object,
       required: true,
       default: () => {},

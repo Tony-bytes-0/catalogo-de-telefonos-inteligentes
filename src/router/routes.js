@@ -3,10 +3,10 @@ const routes = [
     path: "/",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "", component: () => import("pages/IndexPage.vue") },
-      { path: "sedan", component: () => import("pages/SedanPage.vue") },
-      { path: "pickup", component: () => import("pages/PickupPage.vue") },
-      { path: "hatchback", component: () => import("pages/HatchbackPage.vue") },
+      { path: "/", component: () => import("pages/IndexPage.vue") },
+      { path: "Motorola", component: () => import("pages/Motorola.vue") },
+      { path: "Redmi", component: () => import("pages/Redmi.vue") },
+      { path: "/Iphone", component: () => import("pages/Iphone.vue") },
     ],
   },
 
